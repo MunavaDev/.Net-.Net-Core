@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{940A85AD-99EA-42F7-8624-15C918192360}|">
+  <MonoDevelop.Ide.ItemProperties.Tutodev__Assignment4__OOPMVC PreferredExecutionTarget="/Applications/Firefox Developer Edition.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tutodev_Assignment4_OOPMVC" expanded="True" selected="True">
+            <Node name="Tutodev_Assignment4_OOPMVC" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

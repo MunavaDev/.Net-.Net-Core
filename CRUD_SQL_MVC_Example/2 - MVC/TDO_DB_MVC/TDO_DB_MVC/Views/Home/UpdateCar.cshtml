@@ -1,0 +1,50 @@
+﻿@model TDO_DB_MVC.Models.CarsModel
+
+
+    <div class="alert alert-success" role="alert" style="margin-left:500px;width:300px">
+        @ViewBag.Message
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+<!--Using Razor to Add object to db using a htmlbeginform-->
+@using (Html.BeginForm("UpdateCarDb", "Home"))
+{
+    <div style="margin-left:505px;border-radius:20px;border: solid 2px;padding-left:50px;width:300px">
+
+        <div class="form-horizontal" style="align-content:center">
+
+            <div class="form-group" style="border-radius:20px">
+                <br />
+                <h4>Update New Car </h4>
+
+                <input id="CarId" name="CarId" style="color:black;border-radius:20px;display:none" required value="@Model.ID"  />
+
+                <div class="form-group" style="border-radius:20px">
+                    <label>Car Name </label>
+                    <input id="CarName" name="CarName" style="color:black;border-radius:20px" required value="@Model.Name" />
+                </div>
+
+                <div class="form-group" style="border-radius:20px">
+                    <label>Car Model </label>
+                    <input id="CarModel" name="CarModel" style="color:black;border-radius:20px" required value="@Model.Model"/>
+                </div>
+
+                <div class="form-group" style="border-radius:20px">
+                    <label>Car Price </label>
+                    <input id="CarPrice" name="CarPrice" style="color:black;border-radius:20px" required value="@Model.Price" />
+                </div>
+
+                <div style="margin-left:50px">
+                    <button type="submit" class="btn btn-primary" style="border-radius:20px"> Update Object </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+}
+

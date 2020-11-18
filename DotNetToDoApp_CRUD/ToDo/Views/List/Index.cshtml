@@ -1,0 +1,178 @@
+﻿@model IEnumerable<ToDo.Models.Category>
+
+@{
+    ViewBag.Title = "ToDo";
+}
+<div class="alert alert-success" role="alert" style="margin: 0 auto;width:300px">
+    @ViewBag.Message
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<br />
+<div style="margin:0 auto; width:400px; border:2px solid; border-radius:20px ; border-color:white; padding-top:10px">
+    <div style="margin-left:80px">
+        <h1 style="color:white; margin:0 auto; ">
+            <i class="glyphicon glyphicon-th-list" style="color:white;margin-left:-30px"></i>
+            To Do List
+            <button class="btn btn-success" style="border-radius:30px" onclick="location.href ='@Url.Action("Create","Categories")'"><i class="glyphicon glyphicon-plus"></i> </button>
+            <button class="btn btn-warning delete" style="border-radius: 30px"><i class="glyphicon glyphicon-minus"></i> </button>
+        </h1>
+        @if (Model == null || Model.Count() == 0)
+        {
+            <div class="form-group">
+                <h4 style="color:forestgreen">* No Lists Created Yet*</h4>
+            </div>
+        }
+        else
+        {
+            foreach (var item in Model)
+            {
+    <h3 style="color:white;margin-left:-50px" for="collapseOne-@item.catID" data-toggle="collapse" href="#collapseOne-@item.catID" aria-expanded="true" aria-controls="collapseOne-@item.catID" id="@item.Name">
+        @if (item.Items.Count() > 0)
+        {
+                <i class="glyphicon glyphicon-alert btn-sm" style="color:#f0ad4e">
+                </i>
+        }
+        else
+        {
+            <i class="glyphicon glyphicon-asterisk btn-sm"  style="color:rgb(91,192,222)" > </i>
+        }
+
+        <i style="color:white" class="glyphicon glyphicon-chevron-right arrows">
+        </i>
+
+        @item.Name
+        <button class="btn btn-sm btn-success" style="border-radius:30px" onclick="location.href ='@Url.Action("Create","Items",new { Id = item.catID})'"><i class="glyphicon glyphicon-plus"></i></button>
+        <button class="btn btn-sm btn-primary" style="border-radius:30px" onclick="location.href ='@Url.Action("Edit","Categories",new { Id = item.catID})'"><i class="glyphicon glyphicon-pencil"></i> </button>
+
+        <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#modaldeleteCat-@item.catID" style="border-radius:20px">
+            <i class="glyphicon glyphicon-minus"></i>
+        </button>
+
+    </h3>
+                <div class="modal fade" id="modaldeleteCat-@item.catID" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h4 class="modal-title" id="myModalLabel">Confirm Clear</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p> Are you sure you want to remove <strong>@item.Name</strong> and all of its items? </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-success" onclick="location.href ='@Url.Action("Delete","Categories",new { Id = item.catID})'">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="collapseOne-@item.catID" class="collapse">
+                    @if (item.Items == null || item.Items.Count() == 0)
+                    {
+                        <div class="form-group">
+                            <h4 style="color:forestgreen">* No items in list yet *</h4>
+                        </div>
+                    }
+                    else
+                    {
+                        foreach (var listitem in item.Items)
+                        {
+                            <div style="background-color:rgba(128,128,128,0.9);border-radius:10px;width:auto;padding:1px;display: inline-block;">
+                                <h5 style="margin-left:10px;margin-right:10px; color:white">
+                                    @Html.HiddenFor(modelItem => listitem.ID)
+                                    <input type="checkbox" checked="@listitem.Completed" data-toggle="modal" data-target="#modal-@listitem.ID" />
+                                    @Html.DisplayFor(modelItem => listitem.Name, new { @style = "color:white" })
+                                    <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#modaldelete-@listitem.ID" style="border-radius:20px">
+                                        <i class="glyphicon glyphicon-minus"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-primary" style="border-radius:30px" onclick="location.href ='@Url.Action("Edit","Items",new { Id = listitem.ID})'"><i class="glyphicon glyphicon-pencil"></i> </button>
+                                </h5>
+                            </div>
+                            <p></p>
+                            <div class="modal fade" id="modal-@listitem.ID" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            <h4 class="modal-title" id="myModalLabel">Confirm Clear</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            @if (listitem.Completed == true)
+                                            {
+                                                <p>Mark <strong>@listitem.Name</strong>  as incomplete ? </p>
+                                            }
+                                            else
+                                            {
+                                                <p>Mark <strong> @listitem.Name</strong> as complete ?</p>
+                                            }
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="btn btn-success" onclick="location.href ='@Url.Action("Togglechecked","Items",new { Id = listitem.ID})'">Confirm</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modaldelete-@listitem.ID" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            <h4 class="modal-title" id="myModalLabel">Confirm Clear</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p> Are you sure you want to remove <strong>@listitem.Name</strong> from <strong>@item.Name</strong></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="btn btn-success" onclick="location.href ='@Url.Action("Delete","Items",new { Id = listitem.ID})'">Confirm</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h4 class="modal-title" id="myModalLabel">Confirm Clear</h4>
+                            </div>
+                            <div class="modal-body">
+                                Are you sure you want to clear all completed items ?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-success" onclick="location.href ='@Url.Action("Deletechecked","Items")'">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+
+@section scripts
+{
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $(".arrows").click(function () {
+                if ($(this).hasClass("glyphicon-chevron-right")) {
+                    $(this).removeClass("glyphicon-chevron-right").addClass("glyphicon glyphicon-chevron-down");
+                } else {
+                    $(this).removeClass("glyphicon-chevron-down").addClass("glyphicon glyphicon-chevron-right");
+                }
+            });
+
+        });
+    </script>
+}
+

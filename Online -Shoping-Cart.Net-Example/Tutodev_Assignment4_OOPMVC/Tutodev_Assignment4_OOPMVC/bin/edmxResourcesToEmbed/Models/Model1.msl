@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RugbyModelStoreContainer" CdmEntityContainer="RugbyEntities">
+    <EntitySetMapping Name="Joins">
+      <EntityTypeMapping TypeName="RugbyModel.Join">
+        <MappingFragment StoreEntitySet="Join">
+          <ScalarProperty Name="Join_ID" ColumnName="Join_ID" />
+          <ScalarProperty Name="Player_ID" ColumnName="Player_ID" />
+          <ScalarProperty Name="Team_ID" ColumnName="Team_ID" />
+          <ScalarProperty Name="Position_ID" ColumnName="Position_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Players">
+      <EntityTypeMapping TypeName="RugbyModel.Player">
+        <MappingFragment StoreEntitySet="Player">
+          <ScalarProperty Name="Player_ID" ColumnName="Player_ID" />
+          <ScalarProperty Name="Player_Name" ColumnName="Player_Name" />
+          <ScalarProperty Name="Player_Surname" ColumnName="Player_Surname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Positions">
+      <EntityTypeMapping TypeName="RugbyModel.Position">
+        <MappingFragment StoreEntitySet="Position">
+          <ScalarProperty Name="Position_ID" ColumnName="Position_ID" />
+          <ScalarProperty Name="Position_Type" ColumnName="Position_Type" />
+          <ScalarProperty Name="Position_Name" ColumnName="Position_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Teams">
+      <EntityTypeMapping TypeName="RugbyModel.Team">
+        <MappingFragment StoreEntitySet="Team">
+          <ScalarProperty Name="Team_ID" ColumnName="Team_ID" />
+          <ScalarProperty Name="Team_Type" ColumnName="Team_Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

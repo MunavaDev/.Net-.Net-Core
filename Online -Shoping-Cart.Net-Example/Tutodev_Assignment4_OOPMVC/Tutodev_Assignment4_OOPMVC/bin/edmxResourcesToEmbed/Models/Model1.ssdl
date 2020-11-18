@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RugbyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Join">
+    <Key>
+      <PropertyRef Name="Join_ID" />
+    </Key>
+    <Property Name="Join_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Player_ID" Type="int" />
+    <Property Name="Team_ID" Type="int" />
+    <Property Name="Position_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="Player">
+    <Key>
+      <PropertyRef Name="Player_ID" />
+    </Key>
+    <Property Name="Player_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Player_Name" Type="varchar" MaxLength="20" />
+    <Property Name="Player_Surname" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Position">
+    <Key>
+      <PropertyRef Name="Position_ID" />
+    </Key>
+    <Property Name="Position_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Position_Type" Type="varchar" MaxLength="20" />
+    <Property Name="Position_Name" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Team">
+    <Key>
+      <PropertyRef Name="Team_ID" />
+    </Key>
+    <Property Name="Team_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Team_Type" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK__Join__Player_ID__3D5E1FD2">
+    <End Role="Player" Type="Self.Player" Multiplicity="0..1" />
+    <End Role="Join" Type="Self.Join" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Player">
+        <PropertyRef Name="Player_ID" />
+      </Principal>
+      <Dependent Role="Join">
+        <PropertyRef Name="Player_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Join__Position_I__3F466844">
+    <End Role="Position" Type="Self.Position" Multiplicity="0..1" />
+    <End Role="Join" Type="Self.Join" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Position">
+        <PropertyRef Name="Position_ID" />
+      </Principal>
+      <Dependent Role="Join">
+        <PropertyRef Name="Position_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Join__Team_ID__3E52440B">
+    <End Role="Team" Type="Self.Team" Multiplicity="0..1" />
+    <End Role="Join" Type="Self.Join" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Team">
+        <PropertyRef Name="Team_ID" />
+      </Principal>
+      <Dependent Role="Join">
+        <PropertyRef Name="Team_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RugbyModelStoreContainer">
+    <EntitySet Name="Join" EntityType="Self.Join" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Player" EntityType="Self.Player" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Position" EntityType="Self.Position" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Team" EntityType="Self.Team" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Join__Player_ID__3D5E1FD2" Association="Self.FK__Join__Player_ID__3D5E1FD2">
+      <End Role="Player" EntitySet="Player" />
+      <End Role="Join" EntitySet="Join" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Join__Position_I__3F466844" Association="Self.FK__Join__Position_I__3F466844">
+      <End Role="Position" EntitySet="Position" />
+      <End Role="Join" EntitySet="Join" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Join__Team_ID__3E52440B" Association="Self.FK__Join__Team_ID__3E52440B">
+      <End Role="Team" EntitySet="Team" />
+      <End Role="Join" EntitySet="Join" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

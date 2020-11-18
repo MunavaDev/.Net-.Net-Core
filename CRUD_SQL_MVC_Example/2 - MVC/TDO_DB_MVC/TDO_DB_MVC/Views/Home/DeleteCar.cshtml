@@ -1,0 +1,35 @@
+﻿@model TDO_DB_MVC.Models.CarsModel
+
+
+<!--Using Razor to Add object to db using a htmlbeginform-->
+@using (Html.BeginForm("DeleteCarDb", "Home"))
+{
+    <div style="margin-left:505px;border-radius:20px;border: solid 2px;padding-left:50px;width:500px">
+
+        <div class="form-horizontal" style="align-content:center">
+
+            <div class="form-group" style="border-radius:20px">
+                <br />
+                <h4>Are you Sure you want to Delete  </h4>
+
+                <input id="CarId" name="CarId" style="color:black;border-radius:20px;display:none" required value="@Model.ID" />
+
+                <div class="form-group" style="border-radius:20px">
+                    <label id="CarName" name="CarName" style="color:black">@Model.Name</label>
+                </div>
+
+                <div style="margin-left:50px">
+                    <button type="submit" class="btn btn-danger" style="border-radius:20px"> Yes</button>
+                    <button type="submit" class="btn btn-succes" style="border-radius:20px" onclick="window.location.back(-1)">no</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+}
+
+

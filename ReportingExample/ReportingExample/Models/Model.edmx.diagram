@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6c21e3c086f74c6ea195c6fb1c284ee7" Name="Diagram1">
+        <EntityTypeShape EntityType="ReportStoreModel.Customer" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReportStoreModel.Employee" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReportStoreModel.Invoice" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReportStoreModel.InvoiceLine" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReportStoreModel.Product" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="ReportStoreModel.FK__Invoice__Custome__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="ReportStoreModel.FK__Invoice__Employe__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="ReportStoreModel.FK__InvoiceLi__Invoi__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="ReportStoreModel.FK__InvoiceLi__Produ__2F10007B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

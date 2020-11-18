@@ -1,0 +1,237 @@
+﻿@model IEnumerable<ReportingExample.Models.InvoiceLine>
+@{
+    ViewBag.Title = "Home Page";
+}
+<html>
+<head>
+    <script src="~/Scripts/Chart.min.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Table</h1>
+    <!--Submit Search-->
+    @using (Html.BeginForm("Index", "Home"))
+    {
+        @Html.AntiForgeryToken()
+
+        <!--Dropdown using Razor-->
+        <div class="form-group">
+            <label style="color:white" class="control-label">Product</label>
+            <br />
+            <div class="col-md-10">
+                @Html.DropDownList("ProductID", (IEnumerable<SelectListItem>)ViewBag.ProductID, htmlAttributes: new { @class = "form-control", @style = "border-radius:20px;width:200px", id = "ProductID", name = "ProductID" })
+            </div>
+        </div>
+        <br />
+        <br />
+        <button class="btn btn-primary">Submit</button>
+    }
+    <br />
+    @if (Model == null || Model.Count() == 0)
+    {
+        <!--Table with Data-->
+        <table class="table table-striped">
+            <tr>
+                <th>
+                    Customer Name
+                </th>
+                <th>
+                    InvoiceID
+                </th>
+                <th>
+                    Price Total
+                </th>
+                <th></th>
+            </tr>
+        </table>
+    }
+    else
+    {
+        <!--Table with Data-->
+        <table class="table table-striped">
+            <tr>
+                <th>
+                    Customer Name
+                </th>
+                <th>
+                    InvoiceID
+                </th>
+                <th>
+                    Price Total
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.Invoice.Customer.CustomerName
+                    </td>
+                    <td>
+                        @item.InvoiceID
+                    </td>
+                    <td>
+                        R @item.Invoice.PriceTotal
+                    </td>
+                </tr>
+            }
+
+        </table>
+    }
+    <hr style="background-color:dodgerblue" />
+    <div class="container" style="margin-left:35%">
+
+        <h1 style="width:50%">Product Chart</h1>
+
+        <label>Products that sold more than or equal to</label>
+
+        <input class="form-control" type="number" style="border-radius:20px" id="Value" name="Value" required min="0" />
+
+        <br />
+        <br />
+        <button style="margin-left:8%" class="btn btn-primary" id="btn-submit">Submit</button>
+        <br />
+        <br />
+        <button style="margin-left:4%" class="btn btn-primary" id="cmd" disabled onclick="getPDF()">Download chart as PDF </button>
+    </div>
+    <br />
+    <!--chart below-->
+    <div id="chart_container" style="border: 2px solid;border-color:dodgerblue;border-radius:20px;padding:1px;height:auto;width:auto" >
+        <!--Create Canvas-->
+            <canvas id="bar_chart" height="300" width="400">
+
+
+            </canvas>
+    </div>
+
+
+    <!--Scripts Section-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <!--Pdf stuff-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script>
+        $("#cmd").prop("disabled", true);
+        //for saving all
+        $('#btn-submit').click(function () {
+
+            var ctx = $('#bar_chart');
+
+            var quantityfrominput = parseInt($("#Value").val());
+            //implemet check
+            if ($('#Value').val().trim() == "") {
+                Swal.fire('<span style="color:#f0ad4e"> Hold on.... Number is Required');
+                return;
+            }
+
+            debugger
+            $.ajax({
+                url: '/Home/GetChartData',
+                type: "POST",
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify({ "quantity": quantityfrominput }),
+                success: function (data) {
+                    console.log(data);
+                    //begin rendering
+                    let region = [];
+                    let rev_value = [];
+
+                    try {
+
+                        data.map((item) => {
+                            rev_value.push(item.ProductQuantity);
+                            region.push(item.ProductName);
+                        });
+
+                        var myChart = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: [...region],
+                                datasets: [{
+                                    label: 'Regions',
+                                    data: [...rev_value],
+                                    backgroundColor: [
+                                        'rgba(255, 99, 132, 0.2)',
+                                        'rgba(54, 162, 235, 0.2)',
+                                        'rgba(255, 206, 86, 0.2)',
+                                        'rgba(75, 192, 192, 0.2)',
+                                        'rgba(153, 102, 255, 0.2)',
+                                        'rgba(255, 159, 64, 0.2)',
+                                        'rgba(121, 194, 50, 0.2)',
+                                        'rgba(150, 127,23, 0.2)',
+                                        'rgba(188, 113, 12, 0.2)',
+                                        'rgba(0, 0, 88, 0.2)'
+                                    ],
+                                    borderColor: [
+                                        'rgba(255, 99, 132, 1)',
+                                        'rgba(54, 162, 235, 1)',
+                                        'rgba(255, 206, 86, 1)',
+                                        'rgba(75, 192, 192, 1)',
+                                        'rgba(153, 102, 255, 1)',
+                                        'rgba(255, 159, 64, 1)',
+                                        'rgba(255, 159, 64, 1)',
+                                        'rgba(255, 159, 64, 1)',
+                                        'rgba(255, 159, 64, 1)',
+                                        'rgba(255, 159, 64, 1)',
+                                    ],
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                scales: {
+                                    yAxes: [{
+                                        ticks: {
+                                            beginAtZero: true
+                                        }
+                                    }]
+                                }
+                            }
+                        });
+                        debugger
+                        Swal.fire('Chart Loaded', 'Data is Found!', 'success');
+                        debugger
+                        $("#cmd").prop("disabled", false);
+                    }
+                    catch (error) {
+                        console.log(error);
+                    }
+
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    Swal.fire({
+                        type: 'error',
+                        title: 'Oops...',
+                        text: 'Something went wrong!'
+                    });
+                    //totally done
+                }
+            });
+
+        });
+
+        //for downloading
+        //Create PDf from HTML...
+        function getPDF() {
+            var canvas = document.querySelector('#bar_chart');
+            //creates image
+            var canvasImg = canvas.toDataURL("image/jpeg", 1.0);
+
+            //creates PDF from img
+            var doc = new jsPDF('landscape');
+            doc.setFontSize(20);
+            doc.text(15, 15, "Cool Chart");
+            doc.addImage(canvasImg, 'JPEG', 10, 10, 280, 150);
+            doc.save('canvas.pdf');
+        };
+   
+
+    </script>
+    <!--Scripts Section-->
+
+
+</body>
+</html>

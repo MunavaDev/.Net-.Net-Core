@@ -1,0 +1,376 @@
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/TDO_DB_MVC.dll.config
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/TDO_DB_MVC.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/TDO_DB_MVC.pdb
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.exe
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.exe.config
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.rsp
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.exe
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.exe.config
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.rsp
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CSharp.Core.targets
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.Managed.Core.targets
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.VisualBasic.Core.targets
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.AppContext.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Collections.Immutable.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Console.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Diagnostics.StackTrace.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Compression.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.FileSystem.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.FileSystem.Primitives.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Pipes.AccessControl.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Pipes.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Reflection.Metadata.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.AccessControl.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Claims.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Encoding.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Primitives.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Principal.Windows.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Text.Encoding.CodePages.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.ValueTuple.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.ReaderWriter.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XmlDocument.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XPath.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XPath.XDocument.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.exe
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.exe.config
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.rsp
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/VBCSCompiler.exe
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/VBCSCompiler.exe.config
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/Antlr3.Runtime.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/Newtonsoft.Json.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Helpers.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Mvc.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Optimization.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Razor.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Deployment.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Razor.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/WebGrease.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Helpers.xml
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Mvc.xml
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Optimization.xml
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Razor.xml
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.xml
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Deployment.xml
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Razor.xml
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/Newtonsoft.Json.xml
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/Antlr3.Runtime.pdb
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csprojAssemblyReference.cache
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csproj.CoreCompileInputs.cache
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csproj.CopyComplete
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.dll
+C:/Users/iains/source/repos/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.pdb
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/TDO_DB_MVC.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/TDO_DB_MVC.pdb
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.exe
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.exe.config
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.rsp
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.exe
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.exe.config
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.rsp
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CSharp.Core.targets
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.Managed.Core.targets
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.AppContext.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Collections.Immutable.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Console.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Diagnostics.StackTrace.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Compression.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.FileSystem.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.FileSystem.Primitives.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Pipes.AccessControl.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Pipes.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Reflection.Metadata.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.AccessControl.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Claims.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Encoding.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Primitives.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Principal.Windows.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Text.Encoding.CodePages.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.ValueTuple.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.ReaderWriter.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XmlDocument.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XPath.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XPath.XDocument.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.exe
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.exe.config
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.rsp
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/VBCSCompiler.exe
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/VBCSCompiler.exe.config
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/Antlr3.Runtime.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.Web.Infrastructure.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/Newtonsoft.Json.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Helpers.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Mvc.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Optimization.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Razor.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Deployment.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Razor.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/WebGrease.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Helpers.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Mvc.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Optimization.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Razor.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Deployment.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Razor.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/Newtonsoft.Json.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/Antlr3.Runtime.pdb
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csprojAssemblyReference.cache
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csproj.CoreCompileInputs.cache
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csproj.CopyComplete
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.pdb
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/TDO_DB_MVC.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/TDO_DB_MVC.pdb
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.exe
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.exe.config
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.rsp
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.exe
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.exe.config
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.rsp
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CSharp.Core.targets
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.Managed.Core.targets
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.AppContext.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Collections.Immutable.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Console.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Diagnostics.StackTrace.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Compression.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.FileSystem.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.FileSystem.Primitives.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Pipes.AccessControl.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Pipes.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Reflection.Metadata.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.AccessControl.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Claims.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Encoding.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Primitives.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Principal.Windows.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Text.Encoding.CodePages.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.ValueTuple.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.ReaderWriter.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XmlDocument.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XPath.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XPath.XDocument.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.exe
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.exe.config
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.rsp
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/VBCSCompiler.exe
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/VBCSCompiler.exe.config
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Antlr3.Runtime.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.Web.Infrastructure.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Newtonsoft.Json.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Helpers.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Mvc.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Optimization.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Razor.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Deployment.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Razor.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/WebGrease.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Helpers.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Mvc.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Optimization.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Razor.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Deployment.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Razor.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Newtonsoft.Json.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Antlr3.Runtime.pdb
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csprojAssemblyReference.cache
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csproj.CoreCompileInputs.cache
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csproj.CopyComplete
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.dll
+/Users/calvinmunava/Desktop/Dev/Repos/Inf272/August/CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.pdb
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/TDO_DB_MVC.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/TDO_DB_MVC.pdb
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.exe
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.exe.config
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.rsp
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.exe
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.exe.config
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.rsp
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CSharp.Core.targets
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.Managed.Core.targets
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.AppContext.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Collections.Immutable.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Console.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Diagnostics.StackTrace.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Compression.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.FileSystem.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.FileSystem.Primitives.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Pipes.AccessControl.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Pipes.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Reflection.Metadata.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.AccessControl.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Claims.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Encoding.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Primitives.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Principal.Windows.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Text.Encoding.CodePages.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.ValueTuple.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.ReaderWriter.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XmlDocument.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XPath.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XPath.XDocument.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.exe
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.exe.config
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.rsp
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/VBCSCompiler.exe
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/VBCSCompiler.exe.config
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Antlr3.Runtime.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.Web.Infrastructure.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Newtonsoft.Json.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Helpers.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Mvc.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Optimization.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Razor.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Deployment.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Razor.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/WebGrease.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Helpers.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Mvc.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Optimization.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Razor.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Deployment.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Razor.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Newtonsoft.Json.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Antlr3.Runtime.pdb
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csprojAssemblyReference.cache
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csproj.CoreCompileInputs.cache
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csproj.CopyComplete
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.pdb
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/TDO_DB_MVC.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/TDO_DB_MVC.pdb
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.exe
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.exe.config
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csc.rsp
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.exe
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.exe.config
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/csi.rsp
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.CSharp.Core.targets
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.Managed.Core.targets
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.AppContext.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Collections.Immutable.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Console.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Diagnostics.StackTrace.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Compression.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.FileSystem.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.FileSystem.Primitives.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Pipes.AccessControl.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.IO.Pipes.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Reflection.Metadata.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.AccessControl.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Claims.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Encoding.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.Primitives.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Security.Principal.Windows.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Text.Encoding.CodePages.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.ValueTuple.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.ReaderWriter.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XmlDocument.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XPath.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/System.Xml.XPath.XDocument.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.exe
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.exe.config
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/vbc.rsp
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/VBCSCompiler.exe
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/roslyn/VBCSCompiler.exe.config
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Antlr3.Runtime.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.Web.Infrastructure.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Newtonsoft.Json.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Helpers.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Mvc.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Optimization.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Razor.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Deployment.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Razor.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/WebGrease.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Helpers.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Mvc.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Optimization.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.Razor.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Deployment.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/System.Web.WebPages.Razor.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Newtonsoft.Json.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Antlr3.Runtime.pdb
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csprojAssemblyReference.cache
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csproj.CoreCompileInputs.cache
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.csproj.CopyComplete
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.dll
+/Users/calvinmunava/Desktop/TDO/Repos/TDO-2/2020/Inf 272/August/TDO-CRUD_SQL_MVC/2 - MVC/TDO_DB_MVC/TDO_DB_MVC/obj/Debug/TDO_DB_MVC.pdb

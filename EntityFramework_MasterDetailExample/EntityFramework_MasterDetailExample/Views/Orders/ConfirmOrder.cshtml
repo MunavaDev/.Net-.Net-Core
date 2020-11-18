@@ -1,0 +1,122 @@
+﻿@model IEnumerable<EntityFramework_MasterDetailExample.Models.bindedlist>
+
+@{
+    ViewBag.Title = "Confirm Order";
+}
+
+<h2>ConfirmOrder</h2>
+<div class="btn btn-success" role="alert" style="width:300px;margin-left:38%">
+    @ViewBag.Message
+</div>
+<!--First div on left-->
+<div>
+    @using (Html.BeginForm("InsertRecord", "Orders"))
+    {
+        @Html.AntiForgeryToken()
+
+        <div style="border:solid 3px;border-color:cornflowerblue; border-radius:20px; padding-left:50px;width:400px;float:left">
+            <h4>OrderLine</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                <input style="display:none" value="@ViewBag.OrderID" id="OrderID" name="OrderID" />
+            </div>
+
+
+            <div class="form-group">
+                <label>Supplier</label><br />
+                @Html.DropDownList("SupplierID", (IEnumerable<SelectListItem>)ViewBag.SupplierID, "Select Supplier", htmlAttributes: new { @class = "btn dropdown-toggle;required", @style = "border-radius:20px;" })
+            </div>
+
+            <div class="form-group">
+                <label>Product</label><br />
+                @Html.DropDownList("ProductID", (IEnumerable<SelectListItem>)ViewBag.ProductID, "Select Product", htmlAttributes: new { @class = "btn dropdown-toggle;required", @style = "border-radius:20px;" })
+            </div>
+
+
+            <div class="form-group">
+                <label>Quantity</label><br />
+                <input type="number" min="1" id="Quantity" name="Quantity" style="border-radius:20px" />
+            </div>
+
+            <div class="form-group btn-group">
+                <button class="btn btn-success" type="submit">Insert</button>
+                <input type="button" class="btn btn-info" onclick="window.location.href='@Url.Action("SendOrder","Orders", new { id = ViewBag.OrderID })'" value="Send Order">
+            </div>
+        </div>
+
+    }
+
+    <!--Second div on Right-->
+    <div style="border:solid 3px;border-color:cornflowerblue; border-radius:20px; padding-left:50px;width:400px;float:right">
+        <h4>Order Data</h4>
+        <br />
+        <h1>Total Order Price:</h1>
+        <h3 style="color:seagreen">@ViewBag.TotalPrice</h3>
+
+        <hr />
+        <h1>Total Order Quantity:</h1>
+        <h3 style="color:cornflowerblue">@ViewBag.TotalQuantity</h3>
+    </div>
+
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<!--Table -->
+<div style="margin-top:250px">
+    @if (Model == null || Model.Count() == 0)
+    {
+        <div class="jumbotron">
+            <button style="margin-left:50%" class="btn btn-success btn-lg"> No Orders Found</button>
+        </div>
+    }
+    else
+    {
+
+        <table class="table">
+            <tr>
+                <th>
+                    Product
+                </th>
+                <th>
+                    Quantity
+                </th>
+                <th>
+                    Price
+                </th>
+                <th>
+                    Supplier
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quantity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductPrice)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SupplierName)
+                    </td>
+                </tr>
+            }
+        </table>
+
+    }
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+}

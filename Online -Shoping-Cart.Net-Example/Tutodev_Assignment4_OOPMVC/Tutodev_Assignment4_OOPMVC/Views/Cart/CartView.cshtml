@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Tutodev_Assignment4_OOPMVC.Models.CartList>
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Console Mart</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <button class="btn btn-primary" onclick="window.location.href='@Url.Action("Index", "Home")'">
+                        <span class="glyphicon glyphicon glyphicon-home"></span>
+                        Back to Shop
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br />
+<h2>Items In Cart</h2>
+<hr style="color:dodgerblue;border: 2px double" />
+<div class="alert alert-info">
+    <strong>@ViewBag.Message</strong>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div style="border:3px solid;border-radius:20px;padding:10px;margin-left:5px;margin-top:10px;">
+    @if (Model == null || Model.Count() == 0)
+    {
+        <div class="form-group">
+            <h4 style="color:forestgreen">* No Items in Basket Yet*</h4>
+        </div>
+    }
+    else
+    {
+        <div>
+            <button class="btn btn-danger" style="float:left" data-toggle="modal" data-target="#modal-clear"><i class="glyphicon glyphicon-trash"></i>Clear Basket</button>
+            <h1 style="text-align:right"><strong> R @ViewBag.Total</strong></h1>
+        </div>
+        <table class="table table-hover table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Nett Price</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var console in Model)
+                {
+                    <tr>
+                        <td>@console.Name</td>
+                        <td>@console.Quntity</td>
+                        <td>@console.Price</td>
+
+                        <td class="btn-group">
+                            <button class="btn btn-success">
+                                <i class="glyphicon glyphicon-plus-sign" style="color:white" onclick="window.location.href='@Url.Action("PlusQuantity","Home", new { Name = console.Name })'">
+
+                                </i>
+                            </button>
+                            <button class="btn btn-primary">
+                                <i class="glyphicon glyphicon-minus-sign" style="color:white" onclick="window.location.href='@Url.Action("MinusQuantity","Home", new { Name = console.Name })'">
+
+                                </i>
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="modal fade" id="modal-clear" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content" style="background-color:black;color:white;border-radius:15px">
+                    <div class="modal-header">
+                        <button style="color:red" type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="myModalLabel">Confirm Clear</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h3><strong>Are you Sure You want to Clear The Basket?</strong> </h3>
+                    </div>
+                    <div class="modal-footer">
+                        <button onclick="myfun()" type="button" class="btn btn-danger" data-dismiss="modal"> X No</button>
+                        <button type="submit" class="btn btn-primary" data-dismiss="modal" onclick="window.location.href='@Url.Action("ResetShopItems", "Cart")'">
+                            <i class="glyphicon glyphicon-ok">
+                            </i>
+                            Yes
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<hr style="color:dodgerblue;border: 2px double" />
+<br />
+<div class="btn btn-lg btn-primary" style="border-radius:20px;color:white;width:50%;margin:0 auto; margin-left:25%; height:50px" onclick="window.location.href='@Url.Action("ConfirmCheckout", "Cart", new { Total = @ViewBag.Total })'">
+    <i class="glyphicon glyphicon-shopping-cart"></i>
+    Proceed to Checkout
+</div>
+
+

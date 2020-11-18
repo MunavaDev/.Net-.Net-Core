@@ -1,0 +1,62 @@
+﻿@model IEnumerable<EntityFramework_MasterDetailExample.Models.Order>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <button class="btn btn-primary" onclick="window.location.href='@Url.Action("Create","Orders")'">New Order</button>
+</p>
+<div class="btn btn-success" role="alert" style="width:300px;margin-left:38%">
+    @ViewBag.Message
+</div>
+<br />
+<br />
+<table class="table">
+    <tr>
+        <th>
+            Order Number
+        </th>
+        <th>
+            Order Date
+        </th>
+        <th>
+            Order Status
+        </th>
+        <th>
+            Order Operations
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderStatu.Status)
+            </td>
+            <td>
+                <!--check the status id -->
+                @if (item.StatusID == 1)
+                {
+                    <div class="btn btn-group">
+                        <button class="btn btn-success" onclick="window.location.href='@Url.Action("ConfirmOrder","Orders",new {id = item.OrderID  })'">Confirm Order</button>
+                        <button class="btn btn-danger" onclick="window.location.href='@Url.Action("Delete","Orders",new {id = item.OrderID  })'">Remove Order</button>
+                    </div>
+                }
+                @if (item.StatusID == 2)
+                {
+                    <button class="btn btn-info" onclick="window.location.href='@Url.Action("ViewOrder","Orders",new {id = item.OrderID  })'">View Order</button>
+                }
+            </td>
+        </tr>
+    }
+
+</table>
